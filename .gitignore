@@ -1,0 +1,35 @@
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Private keys and certificates
+*.key
+*.pem
+
+# Local databases
+*.db
+*.db-shm
+*.db-wal
+
+# Go build artifacts
+*.exe
+*.test
+coverage.out
+
+# Node.js
+node_modules/
+dist/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local development data
+.dev/
+
+# Generated model artifacts
+*.joblib
+*.pkl
